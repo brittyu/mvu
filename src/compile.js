@@ -11,7 +11,7 @@ function Compile(el, vm) {
 
 Compile.prototype = {
     node2Fragment: function(el) {
-        var fragmetn = document.createDocumentFragment(),
+        var fragment = document.createDocumentFragment(),
             child;
         
         while (child = el.firstChild) {
